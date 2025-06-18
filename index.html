@@ -6,20 +6,42 @@
   <title>Dawka Dobra / Dobra Dawka</title>
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    nav {
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    nav ul li a img {
+      width: 100px; /* szerokość obrazków, możesz zmienić */
+      transition: filter 0.3s ease;
+      cursor: pointer;
+      display: block;
+      border: none;
+    }
+    nav ul li a img:hover {
+      filter: brightness(1.2);
+    }
+  </style>
 </head>
 <body>
   <header>
     <img src="img/logo.jpg" alt="Logo Dawka Dobra Dobra Dawka" class="logo">
 
-    
     <nav>
-      <ul><nav style="background-color: #f0f0f0; padding: 10px;">
-  <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 20px;">
-        <li><a href="index.html">Start</a></li>
-        <li><a href="o-nas.html">O nas</a></li>
-        <li><a href="oferta.html">Oferta</a></li>
-        <li><a href="warsztaty.html">Warsztaty</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+      <ul>
+        <li><a href="index.html"><img src="img/start.png" alt="Start" /></a></li>
+        <li><a href="o-nas.html"><img src="img/o-nas.png" alt="O nas" /></a></li>
+        <li><a href="oferta.html"><img src="img/oferta.png" alt="Oferta" /></a></li>
+        <li><a href="warsztaty.html"><img src="img/warsztaty.png" alt="Warsztaty" /></a></li>
+        <li><a href="kontakt.html"><img src="img/kontakt.png" alt="Kontakt" /></a></li>
       </ul>
     </nav>
   </header>
